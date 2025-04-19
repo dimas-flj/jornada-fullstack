@@ -187,11 +187,11 @@ const InputRangeSong = ({
 				}}
 			>
 				<div style={{ textAlign: "center", width: "50%", color: "white", marginLeft: "25%", marginTop: "25%", transform: "translate(0, -25%)" }}>
-					Este banner está sendo exibido tendo em vista algumas regras de segurança dos navegadores que não permitem que o audio seja executado
-					automaticamente, sem que o usuário interaja com a página.
+					This banner is being displayed in view of some browser security rules that do not allow audio to be played automatically, without the user
+					interacting with the page.
 					<br />
 					<br />
-					Em ambiente de produção, este banner/mensagem deverá ser substituído por algum aviso relevante ou mesmo uma mensagem de propaganda.
+					In a production environment, this banner/message should be replaced by a relevant notice or even an advertising message.
 					<br />
 					<br />
 					<a
@@ -201,7 +201,7 @@ const InputRangeSong = ({
 							audioPlayer.current.play();
 						}}
 					>
-						Click aqui para continuar
+						Click here to continue
 					</a>
 				</div>
 			</div>
